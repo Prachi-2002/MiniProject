@@ -1,0 +1,73 @@
+body,
+html {
+    margin: 0;
+    height: 100%;
+}
+
+#nav {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+}
+
+a {
+    margin-right: 20px;
+}
+
+#nav a.topImage {
+    width: 20px;
+    height: 20px;
+    background: red;
+    border-radius: 30%;
+}
+
+#middle {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo {
+    text-align: center;
+}
+
+#serchbarcontainer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#searchbar {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    outline: 0;
+    width: 500px;
+    border-radius: 25px;
+    border: 1px solid grey;
+}
+
+#buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.buttons {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px 10px;
+    background-color: rgb(212, 207, 207);
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+#links {
+    margin-top: 20px;
+    text-align: center;
+}
